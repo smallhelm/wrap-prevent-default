@@ -1,0 +1,33 @@
+{
+  "name": "wrap-prevent-default",
+  "version": "1.0.0",
+  "description": "Wrap an event handler so that it will e.preventDefault() for you when available. (i.e. also works if you call it directly)",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smallhelm/wrap-prevent-default.git"
+  },
+  "keywords": [
+    "prevent-default",
+    "preventDefault",
+    "dom",
+    "event",
+    "event handler",
+    "events"
+  ],
+  "author": "smallhelm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smallhelm/wrap-prevent-default/issues"
+  },
+  "homepage": "https://github.com/smallhelm/wrap-prevent-default#readme",
+  "devDependencies": {
+    "tape": "^4.2.1"
+  }
+}
