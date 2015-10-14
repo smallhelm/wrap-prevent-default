@@ -15,7 +15,7 @@ var handler = prevDflt(function(event){
 //you can also call it directly and it'll still work
 handler();
 ```
- * `"this"` works as you would expect.
+ * `this` works as you would expect.
  * All arguments are passed on to your handler as you would expect.
 
 ## License
